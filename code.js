@@ -36,3 +36,11 @@ function isFive(a) {
         return false;
     }
 }
+
+function isEven(b) {
+    if (typeof b === "number" && b % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
