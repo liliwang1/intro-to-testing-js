@@ -8,7 +8,6 @@ function helloWorld() {
 // }
 
 function sayHello(input) {
-
     // if (input === "Alex") {
     //     return "Hello Alex!";
     // } else if(input === "Pat"){
@@ -27,5 +26,13 @@ function sayHello(input) {
         return "Hello " + input + "!";
     } else {
         return "Hello World!";
+    }
+}
+
+function isFive(a) {
+    if (a == 5) {
+        return true;
+    } else {
+        return false;
     }
 }

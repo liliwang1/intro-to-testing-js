@@ -61,3 +61,21 @@ describe('sayHello', function() {
         expect(sayHello({})).toBe("Hello World!");
     });
 });
+
+describe('isFive', function () {
+    it('should exists', function () {
+        expect(typeof isFive).toBe("function");
+    });
+    it('should return a boolean value', function () {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('should return true when passed 5', function () {
+        expect(isFive(5)).toBe(true);
+    });
+    it('should return true when passed "5"', function () {
+        expect(isFive("5")).toBe(true);
+    });
+    it('should return false when passed 6', function () {
+        expect(isFive(6)).toBe(false);
+    });
+});
