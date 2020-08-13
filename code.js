@@ -7,6 +7,7 @@ function helloWorld() {
 //     return "Hello, World!";
 // }
 
-function sayHello(name) {
-    return "hello" + name;
+function sayHello() {
+    // return "hello" + name;
+    return "";
 }
