@@ -30,17 +30,17 @@ function sayHello(input) {
 }
 
 function isFive(a) {
-    if (a == 5) {
-        return true;
-    } else {
-        return false;
-    }
+    return a == 5;
 }
 
 function isEven(b) {
-    if (typeof b === "number" && b % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return typeof b === "number" && b % 2 === 0;
 }
+
+function isVowel(c) {
+    var vowel = "aeiouAEIOU";
+    return vowel.indexOf(c) !== -1;
+}
+
+
+
