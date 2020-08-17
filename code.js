@@ -1,11 +1,11 @@
 // helloWorld function 
-function helloWorld() {
-    return "Hello, World!";
-    // console.log("Hello World!");
-}
-// const helloWorld = function() {
+// function helloWorld() {
 //     return "Hello, World!";
+//     // console.log("Hello World!");
 // }
+const helloWorld = function() {
+    return "Hello, World!";
+}
 
 function sayHello(input) {
     // if (input === "Alex") {
@@ -42,5 +42,7 @@ function isVowel(c) {
     return vowel.indexOf(c) !== -1;
 }
 
-
+function add(d, e) {
+    return parseFloat(d) + parseFloat(e);
+}
 
